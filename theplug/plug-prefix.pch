@@ -1,0 +1,32 @@
+//
+//  plug-prefix.pch
+//  theplug
+//
+//  Created by Timothy Lenardo on 2/14/18.
+//  Copyright © 2018 Mango Labs, LLC. All rights reserved.
+//
+
+#ifndef plug_prefix_pch
+#define plug_prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Constants.h"
+#import "HeaderView.h"
+#import "Mixpanel.h"
+#import "Reachability.h"
+#import "UICKeyChainStore.h"
+#import "UIColor+theplug.h"
+
+#endif
+
+#endif /* custom_Prefix_pch */
+

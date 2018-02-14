@@ -1,0 +1,38 @@
+# Xcode
+.DS_Store
+Boom.xcodeproj/project.pbxproj
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+iOSInjectionProject/
+
+*.xcworkspace
+profile
+*.moved-aside
+.idea/
+# Pods - for those of you who use CocoaPods
+Pods
+

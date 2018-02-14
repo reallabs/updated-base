@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22CC97AA2034B97C006945F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97A92034B97C006945F1 /* AppDelegate.m */; };
+		22CC97AD2034B97C006945F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97AC2034B97C006945F1 /* ViewController.m */; };
+		22CC97B22034B97C006945F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CC97B12034B97C006945F1 /* Assets.xcassets */; };
+		22CC97B82034B97C006945F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97B72034B97C006945F1 /* main.m */; };
+		22CC97CE2034D7A3006945F1 /* UIColor+theplug.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97CD2034D7A3006945F1 /* UIColor+theplug.m */; };
+		22CC97D12034D9D2006945F1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97D02034D9D2006945F1 /* Reachability.m */; };
+		22CC97D42034DA64006945F1 /* ApiFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97D32034DA64006945F1 /* ApiFunctions.m */; };
+		22CC97DA2034DF60006945F1 /* NuxLandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97D92034DF60006945F1 /* NuxLandingViewController.m */; };
+		22CC97DD2034DF7C006945F1 /* FirstnameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97DC2034DF7C006945F1 /* FirstnameViewController.m */; };
+		22CC97E02034DF92006945F1 /* LastnameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97DF2034DF92006945F1 /* LastnameViewController.m */; };
+		22CC97E32034DFED006945F1 /* PhoneAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97E22034DFED006945F1 /* PhoneAuthViewController.m */; };
+		22CC97E62034E00B006945F1 /* PhoneAuthConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97E52034E00B006945F1 /* PhoneAuthConfirmationViewController.m */; };
+		22CC97E92034E029006945F1 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97E82034E029006945F1 /* EmailViewController.m */; };
+		22CC97EC2034E3E7006945F1 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97EB2034E3E7006945F1 /* HeaderView.m */; };
+		22CC97FD2034E5ED006945F1 /* ESSCountryChooserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97F02034E5EC006945F1 /* ESSCountryChooserCell.m */; };
+		22CC97FE2034E5ED006945F1 /* ESSPhoneNumberField.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97F12034E5EC006945F1 /* ESSPhoneNumberField.m */; };
+		22CC97FF2034E5ED006945F1 /* ESSCountryChooserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CC97F32034E5EC006945F1 /* ESSCountryChooserCell.xib */; };
+		22CC98002034E5ED006945F1 /* CodeInputTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97F42034E5EC006945F1 /* CodeInputTextView.m */; };
+		22CC98012034E5ED006945F1 /* CodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97F82034E5ED006945F1 /* CodeInputView.m */; };
+		22CC98022034E5ED006945F1 /* ESSCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97F92034E5ED006945F1 /* ESSCountry.m */; };
+		22CC98032034E5ED006945F1 /* ESSCountryChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97FA2034E5ED006945F1 /* ESSCountryChooser.m */; };
+		22CC98042034E5ED006945F1 /* CountryNameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC97FC2034E5ED006945F1 /* CountryNameView.m */; };
+		22CC98072034F55F006945F1 /* MasterLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC98062034F55F006945F1 /* MasterLoginViewController.m */; };
+		22CC980A2034F815006945F1 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CC98092034F815006945F1 /* UserProfile.m */; };
+		6F230CA327AAC8B3D341ECF7 /* libPods-theplug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED464FF25F401B78CEFDC5DC /* libPods-theplug.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22CC97A52034B97C006945F1 /* theplug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theplug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CC97A82034B97C006945F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22CC97A92034B97C006945F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22CC97AB2034B97C006945F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22CC97AC2034B97C006945F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22CC97B12034B97C006945F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22CC97B62034B97C006945F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CC97B72034B97C006945F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22CC97C92034C611006945F1 /* plug-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "plug-prefix.pch"; sourceTree = "<group>"; };
+		22CC97CA2034D708006945F1 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		22CC97CC2034D797006945F1 /* UIColor+theplug.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+theplug.h"; sourceTree = "<group>"; };
+		22CC97CD2034D7A3006945F1 /* UIColor+theplug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+theplug.m"; sourceTree = "<group>"; };
+		22CC97CF2034D9C6006945F1 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		22CC97D02034D9D2006945F1 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		22CC97D22034DA59006945F1 /* ApiFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiFunctions.h; sourceTree = "<group>"; };
+		22CC97D32034DA64006945F1 /* ApiFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiFunctions.m; sourceTree = "<group>"; };
+		22CC97D82034DF54006945F1 /* NuxLandingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NuxLandingViewController.h; sourceTree = "<group>"; };
+		22CC97D92034DF60006945F1 /* NuxLandingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NuxLandingViewController.m; sourceTree = "<group>"; };
+		22CC97DB2034DF6F006945F1 /* FirstnameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstnameViewController.h; sourceTree = "<group>"; };
+		22CC97DC2034DF7C006945F1 /* FirstnameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstnameViewController.m; sourceTree = "<group>"; };
+		22CC97DE2034DF89006945F1 /* LastnameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LastnameViewController.h; sourceTree = "<group>"; };
+		22CC97DF2034DF92006945F1 /* LastnameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastnameViewController.m; sourceTree = "<group>"; };
+		22CC97E12034DFE1006945F1 /* PhoneAuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneAuthViewController.h; sourceTree = "<group>"; };
+		22CC97E22034DFED006945F1 /* PhoneAuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneAuthViewController.m; sourceTree = "<group>"; };
+		22CC97E42034DFFD006945F1 /* PhoneAuthConfirmationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneAuthConfirmationViewController.h; sourceTree = "<group>"; };
+		22CC97E52034E00B006945F1 /* PhoneAuthConfirmationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneAuthConfirmationViewController.m; sourceTree = "<group>"; };
+		22CC97E72034E01D006945F1 /* EmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		22CC97E82034E029006945F1 /* EmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		22CC97EA2034E3DF006945F1 /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		22CC97EB2034E3E7006945F1 /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		22CC97EE2034E5EC006945F1 /* ESSCountryChooserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSCountryChooserCell.h; sourceTree = "<group>"; };
+		22CC97EF2034E5EC006945F1 /* ESSCountryChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSCountryChooser.h; sourceTree = "<group>"; };
+		22CC97F02034E5EC006945F1 /* ESSCountryChooserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSCountryChooserCell.m; sourceTree = "<group>"; };
+		22CC97F12034E5EC006945F1 /* ESSPhoneNumberField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSPhoneNumberField.m; sourceTree = "<group>"; };
+		22CC97F22034E5EC006945F1 /* CodeInputTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeInputTextView.h; sourceTree = "<group>"; };
+		22CC97F32034E5EC006945F1 /* ESSCountryChooserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ESSCountryChooserCell.xib; sourceTree = "<group>"; };
+		22CC97F42034E5EC006945F1 /* CodeInputTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeInputTextView.m; sourceTree = "<group>"; };
+		22CC97F52034E5ED006945F1 /* ESSCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSCountry.h; sourceTree = "<group>"; };
+		22CC97F62034E5ED006945F1 /* CountryNameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryNameView.h; sourceTree = "<group>"; };
+		22CC97F72034E5ED006945F1 /* CodeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeInputView.h; sourceTree = "<group>"; };
+		22CC97F82034E5ED006945F1 /* CodeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeInputView.m; sourceTree = "<group>"; };
+		22CC97F92034E5ED006945F1 /* ESSCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSCountry.m; sourceTree = "<group>"; };
+		22CC97FA2034E5ED006945F1 /* ESSCountryChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESSCountryChooser.m; sourceTree = "<group>"; };
+		22CC97FB2034E5ED006945F1 /* ESSPhoneNumberField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESSPhoneNumberField.h; sourceTree = "<group>"; };
+		22CC97FC2034E5ED006945F1 /* CountryNameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryNameView.m; sourceTree = "<group>"; };
+		22CC98052034F55F006945F1 /* MasterLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterLoginViewController.h; path = theplug/MasterLoginViewController.h; sourceTree = SOURCE_ROOT; };
+		22CC98062034F55F006945F1 /* MasterLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterLoginViewController.m; path = theplug/MasterLoginViewController.m; sourceTree = SOURCE_ROOT; };
+		22CC98082034F815006945F1 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfile.h; path = theplug/UserProfile.h; sourceTree = SOURCE_ROOT; };
+		22CC98092034F815006945F1 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfile.m; path = theplug/UserProfile.m; sourceTree = SOURCE_ROOT; };
+		9B4948A038CD27F90E12CE5A /* Pods-theplug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theplug.release.xcconfig"; path = "Pods/Target Support Files/Pods-theplug/Pods-theplug.release.xcconfig"; sourceTree = "<group>"; };
+		D2D6C3C140B0942597E3EDEC /* Pods-theplug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-theplug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-theplug/Pods-theplug.debug.xcconfig"; sourceTree = "<group>"; };
+		ED464FF25F401B78CEFDC5DC /* libPods-theplug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-theplug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CC97A22034B97C006945F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F230CA327AAC8B3D341ECF7 /* libPods-theplug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22CC979C2034B97C006945F1 = {
+			isa = PBXGroup;
+			children = (
+				22CC97A72034B97C006945F1 /* theplug */,
+				22CC97A62034B97C006945F1 /* Products */,
+				8EF757965CEF12DB18A3D972 /* Pods */,
+				763A8C07E4CAA0A64D6A9B8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22CC97A62034B97C006945F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22CC97A52034B97C006945F1 /* theplug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22CC97A72034B97C006945F1 /* theplug */ = {
+			isa = PBXGroup;
+			children = (
+				22CC97BF2034C22B006945F1 /* Models */,
+				22CC97C02034C231006945F1 /* API */,
+				22CC97C22034C242006945F1 /* Common */,
+				22CC97C12034C238006945F1 /* Providers */,
+				22CC97C32034C24F006945F1 /* Util */,
+				22CC97C42034C256006945F1 /* NUX */,
+				22CC97A82034B97C006945F1 /* AppDelegate.h */,
+				22CC97A92034B97C006945F1 /* AppDelegate.m */,
+				22CC97AB2034B97C006945F1 /* ViewController.h */,
+				22CC97AC2034B97C006945F1 /* ViewController.m */,
+				22CC97C92034C611006945F1 /* plug-prefix.pch */,
+				22CC97B62034B97C006945F1 /* Info.plist */,
+				22CC97C82034C5EF006945F1 /* Supporting Files */,
+			);
+			path = theplug;
+			sourceTree = "<group>";
+		};
+		22CC97BF2034C22B006945F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				22CC98082034F815006945F1 /* UserProfile.h */,
+				22CC98092034F815006945F1 /* UserProfile.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		22CC97C02034C231006945F1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				22CC97D22034DA59006945F1 /* ApiFunctions.h */,
+				22CC97D32034DA64006945F1 /* ApiFunctions.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		22CC97C12034C238006945F1 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		22CC97C22034C242006945F1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				22CC97EA2034E3DF006945F1 /* HeaderView.h */,
+				22CC97EB2034E3E7006945F1 /* HeaderView.m */,
+				22CC97CC2034D797006945F1 /* UIColor+theplug.h */,
+				22CC97CD2034D7A3006945F1 /* UIColor+theplug.m */,
+				22CC97CF2034D9C6006945F1 /* Reachability.h */,
+				22CC97D02034D9D2006945F1 /* Reachability.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		22CC97C32034C24F006945F1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		22CC97C42034C256006945F1 /* NUX */ = {
+			isa = PBXGroup;
+			children = (
+				22CC98052034F55F006945F1 /* MasterLoginViewController.h */,
+				22CC98062034F55F006945F1 /* MasterLoginViewController.m */,
+				22CC97D82034DF54006945F1 /* NuxLandingViewController.h */,
+				22CC97D92034DF60006945F1 /* NuxLandingViewController.m */,
+				22CC97DB2034DF6F006945F1 /* FirstnameViewController.h */,
+				22CC97DC2034DF7C006945F1 /* FirstnameViewController.m */,
+				22CC97DE2034DF89006945F1 /* LastnameViewController.h */,
+				22CC97DF2034DF92006945F1 /* LastnameViewController.m */,
+				22CC97E12034DFE1006945F1 /* PhoneAuthViewController.h */,
+				22CC97E22034DFED006945F1 /* PhoneAuthViewController.m */,
+				22CC97E42034DFFD006945F1 /* PhoneAuthConfirmationViewController.h */,
+				22CC97E52034E00B006945F1 /* PhoneAuthConfirmationViewController.m */,
+				22CC97E72034E01D006945F1 /* EmailViewController.h */,
+				22CC97E82034E029006945F1 /* EmailViewController.m */,
+				22CC97ED2034E5DD006945F1 /* Phone Auth */,
+			);
+			path = NUX;
+			sourceTree = "<group>";
+		};
+		22CC97C82034C5EF006945F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22CC97CA2034D708006945F1 /* Constants.h */,
+				22CC97B12034B97C006945F1 /* Assets.xcassets */,
+				22CC97B72034B97C006945F1 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22CC97ED2034E5DD006945F1 /* Phone Auth */ = {
+			isa = PBXGroup;
+			children = (
+				22CC97F22034E5EC006945F1 /* CodeInputTextView.h */,
+				22CC97F42034E5EC006945F1 /* CodeInputTextView.m */,
+				22CC97F72034E5ED006945F1 /* CodeInputView.h */,
+				22CC97F82034E5ED006945F1 /* CodeInputView.m */,
+				22CC97F62034E5ED006945F1 /* CountryNameView.h */,
+				22CC97FC2034E5ED006945F1 /* CountryNameView.m */,
+				22CC97F52034E5ED006945F1 /* ESSCountry.h */,
+				22CC97F92034E5ED006945F1 /* ESSCountry.m */,
+				22CC97EF2034E5EC006945F1 /* ESSCountryChooser.h */,
+				22CC97FA2034E5ED006945F1 /* ESSCountryChooser.m */,
+				22CC97EE2034E5EC006945F1 /* ESSCountryChooserCell.h */,
+				22CC97F02034E5EC006945F1 /* ESSCountryChooserCell.m */,
+				22CC97F32034E5EC006945F1 /* ESSCountryChooserCell.xib */,
+				22CC97FB2034E5ED006945F1 /* ESSPhoneNumberField.h */,
+				22CC97F12034E5EC006945F1 /* ESSPhoneNumberField.m */,
+			);
+			path = "Phone Auth";
+			sourceTree = "<group>";
+		};
+		763A8C07E4CAA0A64D6A9B8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED464FF25F401B78CEFDC5DC /* libPods-theplug.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EF757965CEF12DB18A3D972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2D6C3C140B0942597E3EDEC /* Pods-theplug.debug.xcconfig */,
+				9B4948A038CD27F90E12CE5A /* Pods-theplug.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22CC97A42034B97C006945F1 /* theplug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CC97BB2034B97C006945F1 /* Build configuration list for PBXNativeTarget "theplug" */;
+			buildPhases = (
+				F63799B89BAB3C786842A756 /* [CP] Check Pods Manifest.lock */,
+				22CC97A12034B97C006945F1 /* Sources */,
+				22CC97A22034B97C006945F1 /* Frameworks */,
+				22CC97A32034B97C006945F1 /* Resources */,
+				C093A139C0205C81D42A7ACA /* [CP] Embed Pods Frameworks */,
+				F7E34A02EBB7DF467C5D4D3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = theplug;
+			productName = theplug;
+			productReference = 22CC97A52034B97C006945F1 /* theplug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22CC979D2034B97C006945F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mango Labs, LLC";
+				TargetAttributes = {
+					22CC97A42034B97C006945F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 22CC97A02034B97C006945F1 /* Build configuration list for PBXProject "theplug" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22CC979C2034B97C006945F1;
+			productRefGroup = 22CC97A62034B97C006945F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22CC97A42034B97C006945F1 /* theplug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CC97A32034B97C006945F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CC97FF2034E5ED006945F1 /* ESSCountryChooserCell.xib in Resources */,
+				22CC97B22034B97C006945F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C093A139C0205C81D42A7ACA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-theplug/Pods-theplug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F63799B89BAB3C786842A756 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-theplug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7E34A02EBB7DF467C5D4D3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-theplug/Pods-theplug-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/Appirater/Appirater.bundle",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowLeft.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowLeft@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowRight.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowRight@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCheckmark.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCheckmark@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton@3x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPDismissKeyboard.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPDismissKeyboard@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPLogo.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPLogo@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/placeholder-image.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~ipad.xib",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~iphonelandscape.xib",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~iphoneportrait.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-theplug/Pods-theplug-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CC97A12034B97C006945F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CC97EC2034E3E7006945F1 /* HeaderView.m in Sources */,
+				22CC98022034E5ED006945F1 /* ESSCountry.m in Sources */,
+				22CC97D42034DA64006945F1 /* ApiFunctions.m in Sources */,
+				22CC97DA2034DF60006945F1 /* NuxLandingViewController.m in Sources */,
+				22CC98012034E5ED006945F1 /* CodeInputView.m in Sources */,
+				22CC97FD2034E5ED006945F1 /* ESSCountryChooserCell.m in Sources */,
+				22CC98072034F55F006945F1 /* MasterLoginViewController.m in Sources */,
+				22CC97DD2034DF7C006945F1 /* FirstnameViewController.m in Sources */,
+				22CC97E02034DF92006945F1 /* LastnameViewController.m in Sources */,
+				22CC97AD2034B97C006945F1 /* ViewController.m in Sources */,
+				22CC97E92034E029006945F1 /* EmailViewController.m in Sources */,
+				22CC98032034E5ED006945F1 /* ESSCountryChooser.m in Sources */,
+				22CC97E32034DFED006945F1 /* PhoneAuthViewController.m in Sources */,
+				22CC98002034E5ED006945F1 /* CodeInputTextView.m in Sources */,
+				22CC980A2034F815006945F1 /* UserProfile.m in Sources */,
+				22CC97B82034B97C006945F1 /* main.m in Sources */,
+				22CC97AA2034B97C006945F1 /* AppDelegate.m in Sources */,
+				22CC97FE2034E5ED006945F1 /* ESSPhoneNumberField.m in Sources */,
+				22CC97E62034E00B006945F1 /* PhoneAuthConfirmationViewController.m in Sources */,
+				22CC97D12034D9D2006945F1 /* Reachability.m in Sources */,
+				22CC98042034E5ED006945F1 /* CountryNameView.m in Sources */,
+				22CC97CE2034D7A3006945F1 /* UIColor+theplug.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		22CC97B92034B97C006945F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22CC97BA2034B97C006945F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22CC97BC2034B97C006945F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D6C3C140B0942597E3EDEC /* Pods-theplug.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMX3W7SFQY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/plug-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"${PODS_ROOT}/Headers/Public/JDStatusBarNotification\"",
+					"\"${PODS_ROOT}/Headers/Public/JazzHands\"",
+					"\"${PODS_ROOT}/Headers/Public/Mixpanel\"",
+					"\"${PODS_ROOT}/Headers/Public/Shimmer\"",
+					"\"${PODS_ROOT}/Headers/Public/UICKeyChainStore\"",
+					"\"${PODS_ROOT}/Headers/Public/UITextField+Shake\"",
+					"\"${PODS_ROOT}/Headers/Public/libPhoneNumber-iOS\"",
+					"$(SRCROOT)/$(PRODUCT_NAME)/**",
+				);
+				INFOPLIST_FILE = theplug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangolabs.theplug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22CC97BD2034B97C006945F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4948A038CD27F90E12CE5A /* Pods-theplug.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LMX3W7SFQY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/plug-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Crashlytics\"",
+					"\"${PODS_ROOT}/Headers/Public/Fabric\"",
+					"\"${PODS_ROOT}/Headers/Public/JDStatusBarNotification\"",
+					"\"${PODS_ROOT}/Headers/Public/JazzHands\"",
+					"\"${PODS_ROOT}/Headers/Public/Mixpanel\"",
+					"\"${PODS_ROOT}/Headers/Public/Shimmer\"",
+					"\"${PODS_ROOT}/Headers/Public/UICKeyChainStore\"",
+					"\"${PODS_ROOT}/Headers/Public/UITextField+Shake\"",
+					"\"${PODS_ROOT}/Headers/Public/libPhoneNumber-iOS\"",
+					"$(SRCROOT)/$(PRODUCT_NAME)/**",
+				);
+				INFOPLIST_FILE = theplug/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangolabs.theplug;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CC97A02034B97C006945F1 /* Build configuration list for PBXProject "theplug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CC97B92034B97C006945F1 /* Debug */,
+				22CC97BA2034B97C006945F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CC97BB2034B97C006945F1 /* Build configuration list for PBXNativeTarget "theplug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CC97BC2034B97C006945F1 /* Debug */,
+				22CC97BD2034B97C006945F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22CC979D2034B97C006945F1 /* Project object */;
+}
